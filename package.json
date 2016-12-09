@@ -1,0 +1,31 @@
+{
+  "name": "rs-file-server",
+  "version": "1.0.0",
+  "description": "A simple file server to parse Retrosheet files",
+  "main": "server.js",
+  "dependencies": {
+    "csvtojson": "^1.0.3",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbents/rs-file-server.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "retrosheet",
+    "baseball"
+  ],
+  "author": "Mike Bents",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbents/rs-file-server/issues"
+  },
+  "homepage": "https://github.com/mbents/rs-file-server#readme"
+}
