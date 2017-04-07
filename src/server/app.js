@@ -61,7 +61,7 @@ app.get('/boxscore', function (req, res) {
     });
 });
 
-app.get('/person', function (req, res) {
+app.get('/readfile', function (req, res) {
     var Converter = require("csvtojson").Converter;
     var converter = new Converter({
         noheader: false
