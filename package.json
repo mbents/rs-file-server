@@ -4,13 +4,13 @@
   "description": "A simple file server to parse Retrosheet files",
   "main": "server.js",
   "dependencies": {
-    "csvtojson": "^1.0.3",
+    "csvtojson": "^2.0.0",
     "express": "^4.14.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server/app.js"
+    "start": "nodemon src/server/app.js"
   },
   "repository": {
     "type": "git",
